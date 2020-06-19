@@ -1,0 +1,44 @@
+.box{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 60px;
+
+}
+
+.longString{
+    margin-top: 25%;
+}
+
+.item{
+    margin-right:10px;
+    /*background-color: red;*/
+}
+
+.enter{
+    font-size: 80px;
+}
+
+.text{
+    color: aliceblue;
+}
+
+
+
+#pic{
+    margin-left:auto;
+    margin-right:30px;
+    border-radius: 100px;
+    max-width: 200px;
+}
+
+body{
+    background-color: lightskyblue;
+    font-family: "Microsoft YaHei","Arial","黑体","宋体",sans-serif;
+}
+
+a{
+    text-decoration:none;
+}

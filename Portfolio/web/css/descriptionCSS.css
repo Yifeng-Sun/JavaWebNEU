@@ -1,0 +1,18 @@
+#pic{
+    margin-left:auto;
+    margin-right:30px;
+    border-radius: 100px;
+    max-width: 100px;
+}
+
+iframe{
+    width: auto;
+    length: 2000;
+}
+
+span{
+    display:inline-block;
+    width:100%;
+    word-wrap:break-word;
+    white-space:normal;
+}

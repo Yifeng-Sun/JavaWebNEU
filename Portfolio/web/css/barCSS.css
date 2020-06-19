@@ -1,0 +1,20 @@
+.box{
+    margin-top: 0;
+    display: flex;
+    align-items:center;
+    width: auto;
+    height: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: lightskyblue;
+    border-radius: 100px;
+    box-shadow:5px 2px 10px #868686;
+}
+
+.item{
+    /*background-color: lightskyblue;*/
+    color: aliceblue;
+    font-size: large;
+    margin-top: 12px;
+}

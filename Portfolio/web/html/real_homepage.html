@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yifeng.RealHomepage</title>
+    <link rel="import" href="navigation_bar.html" id="bar">
+    <link rel="stylesheet" type="text/css" href="../css/PagesCSS.css">
+    <script type="text/javascript" src="../jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+        })
+    </script>
+
+</head>
+<body>
+<iframe   src="navigation_bar.html" width="100%" height="auto" frameborder="0" name="bar" scrolling="no">
+</iframe>
+<div class="box">
+    <a href="AboutMe.html" class="lilBox"><div>
+        <h1> About me</h1>
+        <iframe style="margin-left: 10px; margin-right: 10px" class="descriptionIFrame" src="nobar_AboutMe.html" width="100%" height="auto" frameborder="0" name="bar" scrolling="no" >
+        </iframe>
+    </div></a>
+    <a href="Project.html" class="lilBox"><div>
+        <h1>Projects</h1>
+        <ul style="margin-right: 10px">
+            <li><span>WeChat Mini Program: OnTime</span></li>
+            <li><span>Arduino Interact project: MotionFlow</span></li>
+            <li><span>Java & JavaFX Program: HIS (NEU Cloud Clinic)</span></li>
+        </ul>
+    </div></a>
+    <a href="Interest.html" class="lilBox"><div>
+        <h1>Interests</h1>
+        <iframe class="descriptionIFrame" src="nobar_Interest.html" width="100%" height="auto" frameborder="0" name="bar" scrolling="no" >
+        </iframe>
+    </div></a>
+</div>
+</body>
+</html>
